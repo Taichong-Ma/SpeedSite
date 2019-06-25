@@ -29,54 +29,25 @@
   <body>
     <!-- Off-Canvas Menu-->
     <div class="offcanvas-container is-triggered offcanvas-container-reverse" id="mobile-menu"><span class="offcanvas-close"><i class="fe-icon-x"></i></span>
-      <div class="px-4 pb-4">
-        <h6>Menu</h6>
-        <div class="d-flex justify-content-between pt-2">
-          <div class="btn-group w-100 mr-2"><a class="btn btn-secondary btn-sm btn-block dropdown-toggle" href="#" data-toggle="dropdown"><img src="img/flags/en.png" alt="English"/>English</a>
-            <div class="dropdown-menu" style="min-width: 150px;"><a class="dropdown-item" href="#"><img src="img/flags/fr.png" alt="Français"/>Français</a><a class="dropdown-item" href="#"><img src="img/flags/de.png" alt="Deutsch"/>Deutsch</a><a class="dropdown-item" href="#"><img src="img/flags/it.png" alt="Italiano"/>Italiano</a></div>
-          </div><a class="btn btn-primary btn-sm btn-block" href="account-login.html"><i class="fe-icon-user"></i>&nbsp;Login</a>
-        </div>
-      </div>
-      <div class="offcanvas-scrollable-area border-top" style="height:calc(100% - 235px); top: 144px;">
+
+      <div class="offcanvas-scrollable-area border-top" style="height:calc(100% - 50px); top: 50px;">
         <!-- Mobile Menu-->
         <div class="accordion mobile-menu" id="accordion-menu">
           <!-- Home-->
           <div class="card">
-            <div class="card-header"><a class="mobile-menu-link" href="index.html">Home</a><a class="collapsed" href="#home-submenu" data-toggle="collapse"></a></div>
-            <div class="collapse" id="home-submenu" data-parent="#accordion-menu">
-              <div class="card-body">
-                <ul>
-                  <li class="dropdown-header"><i class="fe-icon-briefcase"></i>&nbsp;&nbsp;Portfolio</li>
-                  <li class="dropdown-item"><a href="home-digital-agency.html">Digital Agency</a></li>
-                  <li class="dropdown-item"><a class="disabled-link" href="#">Architectural Agency<span class="badge badge-secondary">Soon</span></a></li>
-                  <li class="dropdown-item"><a href="home-freelancer-portfolio.html">Freelancer's Portfolio</a></li>
-                  <li class="dropdown-item"><a href="home-photographer-portfolio.html">Photographer's Portfolio</a></li>
-                  <li class="dropdown-header"><i class="fe-icon-shopping-bag"></i>&nbsp;&nbsp;E-Commerce</li>
-                  <li class="dropdown-item"><a href="home-shop-v1.html">Online Shop v.1</a></li>
-                  <li class="dropdown-item"><a href="home-shop-v2.html">Online Shop v.2</a></li>
-                  <li class="dropdown-header"><i class="fe-icon-edit"></i>&nbsp;&nbsp;Blog</li>
-                  <li class="dropdown-item"><a href="home-corporate-blog.html">Corporate Blog</a></li>
-                  <li class="dropdown-item"><a href="home-personal-blog.html">Personal Blog</a></li>
-                  <li class="dropdown-header"><i class="fe-icon-home"></i>&nbsp;&nbsp;Landing Pages</li>
-                  <li class="dropdown-item"><a href="home-mobile-app-showcase.html">Mobile App Showcase</a></li>
-                  <li class="dropdown-item"><a href="home-web-app-showcase.html">Web App Showcase (SAAS)</a></li>
-                  <li class="dropdown-item"><a class="disabled-link" href="#">Product Promo Page<span class="badge badge-secondary">Soon</span></a></li>
-                  <li class="dropdown-item"><a href="home-conference-landing.html">Conference Landing</a></li>
-                  <li class="dropdown-header"><i class="fe-icon-dollar-sign"></i>&nbsp;&nbsp;Business</li>
-                  <li class="dropdown-item"><a class="disabled-link" href="#">Corporate Website<span class="badge badge-secondary">Soon</span></a></li>
-                  <li class="dropdown-item"><a href="home-marketing-seo.html">Digital Marketing &amp; SEO</a></li>
-                  <li class="dropdown-item"><a href="home-capital-investments.html">Venture Capital Investments</a></li>
-                  <li class="dropdown-item"><a class="disabled-link" href="#">Startup Homepage<span class="badge badge-secondary">Soon</span></a></li>
-                  <li class="dropdown-header"><i class="fe-icon-menu"></i>&nbsp;&nbsp;Directory &amp; Listings</li>
-                  <li class="dropdown-item"><a class="disabled-link" href="#">Real Estate Listing<span class="badge badge-secondary">Soon</span></a></li>
-                  <li class="dropdown-item"><a class="disabled-link" href="#">Jobs Board<span class="badge badge-secondary">Soon</span></a></li>
-                </ul>
-              </div>
-            </div>
+            <div class="card-header"><a class="mobile-menu-link" href="index.html">Home</a></div>
           </div>
-          <!-- Portfolio-->
+          <!-- About-->
           <div class="card">
-            <div class="card-header"><a class="mobile-menu-link" href="portfolio-style1-boxed.html">Portfolio</a><a class="collapsed" href="#portfolio-submenu" data-toggle="collapse"></a></div>
+            <div class="card-header"><a class="mobile-menu-link" href="aoubt.html">About</a></div>
+          </div>
+          <!-- People-->
+          <div class="card">
+            <div class="card-header"><a class="mobile-menu-link" href="people.html">People</a></div>
+          </div>
+          <!-- Research-->
+          <div class="card">
+            <div class="card-header"><a class="mobile-menu-link" href="research.html">Research</a><a class="collapsed" href="#portfolio-submenu" data-toggle="collapse"></a></div>
             <div class="collapse" id="portfolio-submenu" data-parent="#accordion-menu">
               <div class="card-body">
                 <ul>
@@ -104,123 +75,17 @@
               </div>
             </div>
           </div>
-          <!-- Blog-->
+          <!-- Publications-->
           <div class="card">
-            <div class="card-header"><a class="mobile-menu-link" href="blog-grid-rs.html">Blog</a><a class="collapsed" href="#blog-submenu" data-toggle="collapse"></a></div>
-            <div class="collapse" id="blog-submenu" data-parent="#accordion-menu">
-              <div class="card-body">
-                <ul>
-                  <li class="dropdown-header">Blog Layouts</li>
-                  <li class="dropdown-item"><a href="blog-grid-rs.html">Grid Right Sidebar</a></li>
-                  <li class="dropdown-item"><a href="blog-grid-ls.html">Grid Left Sidebar</a></li>
-                  <li class="dropdown-item"><a href="blog-grid-ns.html">Grid No Sidebar</a></li>
-                  <li class="dropdown-header">Single Post Formats</li>
-                  <li class="dropdown-item"><a href="blog-single-gallery.html">Post Gallery</a></li>
-                  <li class="dropdown-item"><a href="blog-single-carousel.html">Post Image Carousel</a></li>
-                  <li class="dropdown-item"><a href="blog-single-video.html">Post Video</a></li>
-                  <li class="dropdown-item"><a href="blog-single-audio.html">Post Audio</a></li>
-                  <li class="dropdown-item"><a href="blog-single-quotation.html">Post Quotation</a></li>
-                  <li class="dropdown-item"><a href="blog-single-link.html">Post Link</a></li>
-                </ul>
-              </div>
-            </div>
+            <div class="card-header"><a class="mobile-menu-link" href="publications.html">Publications</a></div>
           </div>
-          <!-- Shop-->
-          <div class="card">
-            <div class="card-header"><a class="mobile-menu-link" href="shop-boxed-ls.html">Shop</a><a class="collapsed" href="#shop-submenu" data-toggle="collapse"></a></div>
-            <div class="collapse" id="shop-submenu" data-parent="#accordion-menu">
-              <div class="card-body">
-                <ul>
-                  <li class="dropdown-header">Shop Layouts</li>
-                  <li class="dropdown-item"><a href="shop-boxed-ls.html">Boxed Left Sidebar</a></li>
-                  <li class="dropdown-item"><a href="shop-boxed-rs.html">Boxed Right Sidebar</a></li>
-                  <li class="dropdown-item"><a href="shop-boxed-ft.html">Boxed Filters Top</a></li>
-                  <li class="dropdown-item"><a href="shop-boxed-ns.html">Boxed No Sidebar</a></li>
-                  <li class="dropdown-item"><a href="shop-fw-ls.html">Full Width Left Sidebar</a></li>
-                  <li class="dropdown-item"><a href="shop-fw-rs.html">Full Width Right Sidebar</a></li>
-                  <li class="dropdown-item"><a href="shop-fw-ft.html">Full Width Filters Top</a></li>
-                  <li class="dropdown-item"><a href="shop-fw-ns.html">Full Width No Sidebar</a></li>
-                  <li class="dropdown-header">Shop Pages</li>
-                  <li class="dropdown-item"><a href="shop-categories.html">Shop Categories</a></li>
-                  <li class="dropdown-item"><a href="shop-single.html">Product Page</a></li>
-                  <li class="dropdown-item"><a href="cart.html">Cart</a></li>
-                  <li class="dropdown-item"><a href="checkout-address.html">Checkout - Address</a></li>
-                  <li class="dropdown-item"><a href="checkout-shipping.html">Checkout - Shipping</a></li>
-                  <li class="dropdown-item"><a href="checkout-payment.html">Checkout - Payment</a></li>
-                  <li class="dropdown-item"><a href="checkout-review.html">Checkout - Review</a></li>
-                  <li class="dropdown-item"><a href="checkout-complete.html">Checkout - Complete</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Account-->
-          <div class="card">
-            <div class="card-header"><a class="mobile-menu-link" href="account-orders.html">Account</a><a class="collapsed" href="#account-submenu" data-toggle="collapse"></a></div>
-            <div class="collapse" id="account-submenu" data-parent="#accordion-menu">
-              <div class="card-body">
-                <ul>
-                  <li class="dropdown-item"><a href="account-login.html">Login / Register</a></li>
-                  <li class="dropdown-item"><a href="account-password-recovery.html">Password Recovery</a></li>
-                  <li class="dropdown-item"><a href="account-orders.html">Orders List</a></li>
-                  <li class="dropdown-item"><a href="account-profile.html">Profile Settings</a></li>
-                  <li class="dropdown-item"><a href="account-address.html">Contact / Shipping Address</a></li>
-                  <li class="dropdown-item"><a href="account-wishlist.html">Wishlist</a></li>
-                  <li class="dropdown-item"><a href="account-tickets.html">My Tickets</a></li>
-                  <li class="dropdown-item"><a href="account-single-ticket.html">Single Ticket</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Pages-->
-          <div class="card">
-            <div class="card-header"><a class="mobile-menu-link active" href="#">Pages</a><a class="collapsed" href="#pages-submenu" data-toggle="collapse"></a></div>
-            <div class="collapse" id="pages-submenu" data-parent="#accordion-menu">
-              <div class="card-body">
-                <ul>
-                  <li class="dropdown-item active"><a href="about-us-v1.html">About Us</a>
-                    <ul class="mobile-sublevel">
-                      <li class="dropdown-item active"><a href="about-us-v1.html">About Us v.1</a></li>
-                      <li class="dropdown-item"><a href="about-us-v2.html">About Us v.2</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown-item"><a href="contacts-v1.html">Contacts</a>
-                    <ul class="mobile-sublevel">
-                      <li class="dropdown-item"><a href="contacts-v1.html">Contacts v.1</a></li>
-                      <li class="dropdown-item"><a href="contacts-v2.html">Contacts v.2</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown-item"><a href="help-topics.html">Help Center</a>
-                    <ul class="mobile-sublevel">
-                      <li class="dropdown-item"><a href="help-topics.html">Help Topics</a></li>
-                      <li class="dropdown-item"><a href="help-single-topic.html">Single Topic</a></li>
-                      <li class="dropdown-item"><a href="help-submit-request.html">Submit a Request</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown-item"><a href="services.html">Services</a>
-                    <ul class="mobile-sublevel">
-                      <li class="dropdown-item"><a href="services.html">Services Landing</a></li>
-                      <li class="dropdown-item"><a href="services-single.html">Single Service Page</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown-item"><a href="pricing.html">Pricing</a></li>
-                  <li class="dropdown-item"><a href="product-comparison.html">Product Comparison</a></li>
-                  <li class="dropdown-item"><a href="order-tracking.html">Order Tracking</a></li>
-                  <li class="dropdown-item"><a href="search-results.html">Search Results</a></li>
-                  <li class="dropdown-item"><a href="coming-soon-light.html">Coming Soon</a>
-                    <ul class="mobile-sublevel">
-                      <li class="dropdown-item"><a href="coming-soon-light.html">Coming Soon Light</a></li>
-                      <li class="dropdown-item"><a href="coming-soon-dark.html">Coming Soon Dark</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown-item"><a href="404.html">404 Not Found</a></li>
-                  <li class="dropdown-item"><a class="text-accent" href="docs/dev-setup.html"><i class="d-inline-block fe-icon-file-text align-middle mr-1"></i>Documentation</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Components-->
+          <!-- Resources-->
           <div class="card">
             <div class="card-header"><a class="mobile-menu-link" href="components.html">Components</a></div>
+          </div>
+          <!-- Contacts-->
+          <div class="card">
+            <div class="card-header"><a class="mobile-menu-link" href="contacts.html">contacts</a></div>
           </div>
         </div>
       </div>
@@ -315,7 +180,7 @@
       <div class="row">
         <div class="team-card-style-1 mx-auto">
           <div class="team-card-inner">
-            <div class="team-thumb"><img src="img/team/style-1/01.jpg" alt="Team Member Picture"/>
+            <div class="team-thumb"><img src="img/team/style-1/default.jpg" alt="Team Member Picture"/>
             </div>
             <div class="team-social-bar text-center"</div><a class="team-contact-link" href="tel:+12062210309"><i class="fe-icon-phone"></i>&nbsp;(206)221-0309</a><a class="team-contact-link" href="mailto:jdmacken@uw.edu"><i class="fe-icon-mail"></i>&nbsp;jdmacken@uw.edu</a>
           </div><span class="team-position">Associate Prof. of Materials Science and Engineering<br/>
@@ -333,7 +198,7 @@
         <!-- Felippe-->
         <div class="team-card-style-1 mx-auto">
           <div class="team-card-inner">
-            <div class="team-thumb"><img src="img/team/style-1/01.jpg" alt="Team Member Picture"/>
+            <div class="team-thumb"><img src="img/team/style-1/felippe.png" alt="Team Member Picture"/>
             </div>
             <div class="team-social-bar text-center"</div><a class="team-contact-link" href="tel:+12066608630"><i class="fe-icon-phone"></i>&nbsp;+1 (206)660-8630</a><a class="team-contact-link" href="mailto:felippe@uw.edu"><i class="fe-icon-mail"></i>&nbsp;felippe@uw.edu</a>
           </div><span class="team-position">Research Scientist, SPEED Group<br/>
@@ -343,20 +208,74 @@
       </div>
       <hr class="mt-5">
     </section>
-
-    <!--Graduate Students-->
-    <section class="container pt-3 pb-4 mb-5" data-offset-top="110" id="Graduate Students">
-      <h2 class="h3 block-title text-center mb-3">Graduate Students</h2>
+    <!-- Graduate Student-->
+    <section class="container pb-5">
+      <h2 class="h3 block-title text-center mb-4">Graduate Students<small></small></h2>
       <div class="row">
-          <!-- Taichong-->
+        <!-- Taichong Ma-->
         <div class="col-lg-3 col-sm-6">
           <div class="team-card-style-1 mx-auto">
             <div class="team-card-inner">
-              <div class="team-thumb"><img src="img/team/style-1/04.jpg" alt="Team Member Picture"/>
+              <div class="team-thumb"><img src="img/team/style-1/taichong.png" alt="Team Member Picture"/>
               </div>
-              <div class="team-social-bar text-center"</div><a class="team-contact-link" href="mailto:taichong@uw.edu"><i class="fe-icon-mail"></i>&nbsp;taichong@uw.edu</a>
-            </div><span class="team-position">Printed Battery and Interconnects</span>
+              <div class="team-social-bar text-center"></div><a class="team-contact-link" href="mailto:taichong@uw.edu"><i class="fe-icon-mail"></i>&nbsp;taichong@uw.edu</a>
+            </div><span class="team-position">Printed battery; Interconnects</span>
             <h4 class="team-name">Taichong Ma</h4>
+          </div>
+        </div>
+        <!-- Michael Crump-->
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card-style-1 mx-auto">
+            <div class="team-card-inner">
+              <div class="team-thumb"><img src="img/team/style-1/michael.png" alt="Team Member Picture"/>
+              </div>
+              <div class="team-social-bar text-center"></div><a class="team-contact-link" href="mailto:mcrump27@uw.edu"><i class="fe-icon-mail"></i>&nbsp;mcrump27@uw.edu</a>
+            </div><span class="team-position">Peizoelectric Sensors; Strechable Strain Sensors</span>
+            <h4 class="team-name">Michael Crump</h4>
+          </div>
+        </div>
+        <!-- Holly Brunner-->
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card-style-1 mx-auto">
+            <div class="team-card-inner">
+              <div class="team-thumb"><img src="img/team/style-1/default.jpg" alt="Team Member Picture"/>
+              </div>
+              <div class="team-social-bar text-center"></div><a class="team-contact-link" href="mailto:hjcbrunner@uw.edu"><i class="fe-icon-mail"></i>&nbsp;hjcbrunner@uw.edu</a>
+            </div><span class="team-position">To many topics to be contained</span>
+            <h4 class="team-name">Holly Brunner</h4>
+          </div>
+        </div>
+        <!-- Oliver Nakano-Baker-->
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card-style-1 mx-auto">
+            <div class="team-card-inner">
+              <div class="team-thumb"><img src="img/team/style-1/oliver.png" alt="Team Member Picture"/>
+              </div>
+              <div class="team-social-bar text-center"></div><a class="team-contact-link" href="mailto:onb@uw.edu"><i class="fe-icon-mail"></i>&nbsp;onb@uw.edu</a>
+            </div><span class="team-position">Modeling; Machine Learning; Electrode Design; Additive Control</span>
+            <h4 class="team-name">Oliver Nakano-Baker</h4>
+          </div>
+        </div>
+        <!-- Malia Steward-->
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card-style-1 mx-auto">
+            <div class="team-card-inner">
+              <div class="team-thumb"><img src="img/team/style-1/malia.png" alt="Team Member Picture"/>
+              </div>
+              <div class="team-social-bar text-center"></div><a class="team-contact-link" href="mailto:maliaks@uw.edu"><i class="fe-icon-mail"></i>&nbsp;maliaks@uw.edu</a>
+            </div><span class="team-position">Organic Photovoltaics; Light Trapping </span>
+            <h4 class="team-name">Malia Steward</h4>
+          </div>
+        </div>
+        <!-- Brandon Rotondo-->
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card-style-1 mx-auto">
+            <div class="team-card-inner">
+              <div class="team-thumb"><img src="img/team/style-1/default.jpg" alt="Team Member Picture"/>
+              </div>
+              <div class="team-social-bar text-center"></div><a class="team-contact-link" href="mailto:brotondo@uw.edu"><i class="fe-icon-mail"></i>&nbsp;brotondo@uw.edu</a>
+            </div><span class="team-position">Perovskite Photovoltaics; Scalable Depostion/Heat Treatments</span>
+            <h4 class="team-name">Brandon Rotondo</h4>
           </div>
         </div>
       </div>
